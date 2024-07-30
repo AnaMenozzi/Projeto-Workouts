@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+
+    --prim-color: #ffffff;
+    --sec-color: #000000;
+    --thi-color: #69B99D;
+    --for-color: #89C5CC;
+
+    --prim-font: "Mulish", sans-serif;
+    --sec-font: "Open Sans", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--prim-color);
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 64px 120px 0px 120px;
+    border-color: #000000;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.intro__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro__content__title {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--prim-font);
+    color: var(--sec-color);
+    text-shadow: 0px 4px 4px gray;
+    text-transform: uppercase;
+}
+
+.title__highlight{
+    color: var(--for-color);
+    font-family: var(--prim-font);
+    font-weight: 500;
+}
+
+/*background: #f5fffd;
+background: linear-gradient(0deg,#f5fffd 0%, #ffffff 20%);
+background: -webkit-linear-gradient(0deg,#f5fffd 0%, #ffffff 20%);
+background: -moz-linear-gradient(0deg,#f5fffd 0%, #ffffff 20%);*/
